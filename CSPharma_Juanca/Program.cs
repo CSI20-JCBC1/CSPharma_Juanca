@@ -11,6 +11,7 @@ builder.Services.AddEntityFrameworkNpgsql()
     {
         options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSqlConnection"));
     });
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var app = builder.Build();
 

@@ -17,6 +17,6 @@ namespace DAL.Models
         public virtual TdcCatEstadosDevolucionPedido? CodEstadoDevolucionNavigation { get; set; }
         public virtual TdcCatEstadosEnvioPedido? CodEstadoEnvioNavigation { get; set; }
         public virtual TdcCatEstadosPagoPedido? CodEstadoPagoNavigation { get; set; }
-        public virtual TdcCatLineasDistribucion CodLineaNavigation { get; set; } = null!;
+        public virtual TdcCatLineasDistribucion? CodLineaNavigation { get; set; } = null!;
     }
 }

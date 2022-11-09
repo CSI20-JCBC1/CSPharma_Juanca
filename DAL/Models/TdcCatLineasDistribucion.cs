@@ -18,6 +18,6 @@ namespace DAL.Models
         public string CodMunicipio { get; set; } = null!;
         public string CodBarrio { get; set; } = null!;
 
-        public virtual ICollection<TdcTchEstadoPedido> TdcTchEstadoPedidos { get; set; }
+        public virtual ICollection<TdcTchEstadoPedido>? TdcTchEstadoPedidos { get; set; }
     }
 }

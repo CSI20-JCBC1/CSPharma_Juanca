@@ -16,6 +16,6 @@ namespace DAL.Models
         public string CodEstadoEnvio { get; set; } = null!;
         public string? DesEstadoEnvio { get; set; }
 
-        public virtual ICollection<TdcTchEstadoPedido> TdcTchEstadoPedidos { get; set; }
+        public virtual ICollection<TdcTchEstadoPedido>? TdcTchEstadoPedidos { get; set; }
     }
 }
